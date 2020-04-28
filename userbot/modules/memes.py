@@ -822,12 +822,12 @@ async def lol(lel):
         await lel.edit(okay)
 		      
 @register(outgoing=True, pattern="^_^$", ignore_unsafe=True)
-async def lol(lel):
+async def func(u):
     """ Ok... """
     oka = "^_^"
     for k in range(10):
         oka = oka[:-1] + "_^"
-        await lel.edit(oka)
+        await u.edit(oka)
 
 @register(outgoing=True, pattern="^.(yes|no|maybe|decide)$")
 async def decide(event):
