@@ -96,8 +96,8 @@ ZALG_LIST = [[
                  " ̈",
                  " ̊",
                  " ͂",
-                 " ̓",
-                 " ̈́",
+                 " ̓",
+                 " ̈́",
                  " ͊",
                  " ͋",
                  " ͌",
@@ -131,8 +131,8 @@ ZALG_LIST = [[
              [
                  " ̕",
                  " ̛",
-                 " ̀",
-                 " ́",
+                 " ̀",
+                 " ́",
                  " ͘",
                  " ̡",
                  " ̢",
@@ -820,7 +820,14 @@ async def lol(lel):
     for i in range(10):
         okay = okay[:-1] + "_-"
         await lel.edit(okay)
-
+		      
+@register(outgoing=True, pattern="^_^$", ignore_unsafe=True)
+async def lol(lel):
+    """ Ok... """
+    oka = "^_^"
+    for k in range(10):
+        oka = oka[:-1] + "_^"
+        await lel.edit(oka)
 
 @register(outgoing=True, pattern="^.(yes|no|maybe|decide)$")
 async def decide(event):
@@ -960,7 +967,7 @@ async def zal(zgfy):
         message = textx.text
     else:
         await zgfy.edit(
-            "`gͫ ̆ i̛ ̺ v͇̆ ȅͅ   a̢ͦ   s̴̪ c̸̢ ä̸ rͩͣ y͖͞   t̨͚ é̠ x̢͖  t͔͛`"
+            "`gͫ ̆ i̛ ̺ v͇̆ ȅͅ   a̢ͦ   s̴̪ c̸̢ ä̸ rͩͣ y͖͞   t̨͚ é̠ x̢͖  t͔͛`"
         )
         return
 
