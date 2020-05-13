@@ -40,7 +40,7 @@ async def sleepybot(time):
         await time.reply("Syntax: `.sleep [seconds]`")
     else:
         counter = int(time.pattern_match.group(1))
-        await time.edit("`I am sulking and snoozing....`")
+        await time.edit(" Plz wait...")
         await sleep(2)
         if BOTLOG:
             await time.client.send_message(
@@ -54,7 +54,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Goodbye *Windows XP shutdown sound*....`")
+    await event.edit("`Goodbye...`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
                                         "Bot shut down")
@@ -63,7 +63,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`BRB... *PornHub intro*`")
+    await event.edit("`have patience i m restarting...`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTART \n"
                                         "Bot Restarted")
@@ -91,7 +91,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        f"Click [here]({UPSTREAM_REPO_URL}) to open my Lit userbot's repository.")
+        f"Click [here]({UPSTREAM_REPO_URL}) to open my userbot's repository.")
 
 
 @register(outgoing=True, pattern="^.raw$")
