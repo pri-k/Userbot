@@ -161,7 +161,7 @@ async def set_afk(afk_e):
     ISAFK = True
     raise StopPropagation
 
-'''
+    
 @register(outgoing=True)
 async def type_afk_is_not_true(notafk):
     """ This sets your status as not afk automatically when you write something while being afk """
@@ -195,7 +195,7 @@ async def type_afk_is_not_true(notafk):
                     " sent you " + "`" + str(USERS[i]) + " messages`",
                 )
         COUNT_MSG = 0
-        USERS = {}'''
+        USERS = {}
 
 
 CMD_HELP.update({
