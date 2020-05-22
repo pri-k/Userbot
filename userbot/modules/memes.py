@@ -32,7 +32,6 @@ METOOSTR = [
 NOOBSTR = [
     "`You Noob don't mess with Me!`",
     "`Noob Boi trying to be Famous Lol`",
-    "`Some Nibbas need to open their small minds instead of their Big Mouths`",
     "`Ah! you don't me, stay away Noob`",
     "`I only talk with Pros. You better go away!`",
     "`Itna bada Noobda dekhlia ab to marna hoga`",
