@@ -809,7 +809,7 @@ async def lol(lel):
         okay = okay[:-1] + "_-"
         await lel.edit(okay)
 		      
-@register(outgoing=True, pattern="^_^$", ignore_unsafe=True)
+@register(outgoing=True, pattern="^~_~$", ignore_unsafe=True)
 async def func(u):
     """ Ok... """
     oka = "^_^"
