@@ -490,17 +490,7 @@ SHGS = [
     "乁( ⁰͡  Ĺ̯ ⁰͡ ) ㄏ",
 ]
 
-RAPE_STRINGS = [
-     "`Rape Done Drink The Cum`",
-     "`The user has been successfully raped`",
-     "`Dekho Bhaiyya esa hai! Izzat bachailo apni warna Gaand maar lenge tumhari`",
-     "`Relax your Rear, ders nothing to fear,The Rape train is finally here`",
-     "`Rape coming... Raped! haha 😆`",
-     "`Kitni baar Rape krvyega mujhse?`",
-     "`Don't rape too much BOSSdk, else problem....`",
-     "`Rape krdunga pata bhi nahi chalega`",
-     "`Doing Rape isn't a Good Thing Senpai !`",
-     "`Lodu Andha hai kya Yaha tera rape ho raha hai aur tu abhi tak yahi gaand mara raha hai lulz`",
+RAPE_STRINGS = ["chup beth",
 ] 
 
 ABUSE_STRINGS = [
@@ -539,7 +529,6 @@ PRO_STRINGS = [
      "`Itna pro banda dekhlia bc, ab to marna hoga.`",
      "`U iz pro but i iz ur DAD, KeK`",
      "`What are you Bsdk? Human or Gawd(+_+)`",
-     "`Aye pro,ek baat yaad rakhna, Agar Bharosa khud par ho to ksi ki chut tumhari kamzori nahi bnskti.`",
      "`I smell a Pro Guy around me!`",
      "`You're as pro as Durov`",
 ]
